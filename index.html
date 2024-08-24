@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean-Michel Basquiat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'></script>
+    <script src='jquery.zoom.js'></script>
+    <script>
+        $(document).ready(function () {
+            $('#ex1').zoom();
+            $('#ex2').zoom({ grab: true });
+            $('#ex3').zoom({ grab: true });
+            $('#ex4').zoom({ grab: true });
+            $('#ex5').zoom({ grab: true });
+            $('#ex6').zoom({ grab: true });
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- modal Graffiti -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Graffiti</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ratio ratio-16x9">
+                    <iframe class="px-2" width="" height=""
+                        src="https://www.youtube.com/embed/z9uuFMOpMTU?si=jVoAh6fHjttKuOOW" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Youtube</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal Dibujo -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Dibujo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ratio ratio-16x9">
+                    <iframe class="px-2" width="" height=""
+                        src="https://www.youtube.com/embed/lHePKNTRmdI?si=v9mZqgYUJ4aBhIqq" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Youtube</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal Pintura -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Pintura</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ratio ratio-16x9">
+                    <iframe class="px-2" width="" height=""
+                        src="https://www.youtube.com/embed/cyAhjRqfib8?si=0INX1Zo3icXyOMi3" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Youtube</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- NAV AREA-->
+    <nav class="navbar navbar-expand-lg background position-fixed w-100 z-1">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#"><img src="assets/img/homepage_logo.png" width="50%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#biografia">Biografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#estilos">Estilos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--- SLIDER AREA-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/img/slider-01.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/img/slider-02.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slider-03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--- ACCORDION AREA-->
+    <div class="container-fluid bg-dark p-5 background">
+        <div class="row ">
+            <div class="col-12">
+                <h1 class="text-center text-light" id="biografia">Biografía</h1>
+            </div>
+        </div>
+    </div>
+    <section class="container p-4">
+        <div class="row ">
+            <div class="col">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                DESCRIPCIÓN
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Jean-Michel Basquiat nació, vivió y murió para destacar. Su
+                                fulgurante y breve vida, su potencia artística, su mezcla entre inconformismo y deseo de
+                                formar parte de las élites y su impactante obra plástica (que se complementa y dialoga
+                                con su poesía y su música) le convirtieron en lo que el experto en arte René Ricard
+                                calificó como “el niño radiante” de su época. Y aún más: el nuevo Van Gogh. Tan polémico
+                                como poderoso, Basquiat se alza hoy como el paradigma del artista maldito que no
+                                renunció en su tiempo a coquetear con la alta sociedad. Actualmente, la indiscutible
+                                calidad e importancia de su obra se funde con las voces que niegan la leyenda de su
+                                infancia difícil, o que se llevan las manos a la cabeza ante las cifras millonarias que
+                                sus cuadros alcanzan en las subastas.<br>
+                                Indiferente a todo, la figura de Jean-Michel Basquiat sigue alzándose como representante
+                                de un arte alejado de las tendencias de la época y con una plástica figurativa que habla
+                                por sí sola. Un arte, siempre, pletórico de ruido y de furia.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                ANTECEDENTES PERSONALES
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p><b>NOMBRE:</b> Jean-Michel Basquiat<br>
+                                    <b>FECHA DE NACIMIENTO:</b> 22 de diciembre de 1960<br>
+                                    <b>FECHA DE DEFUNCIÓN:</b> 12 de agosto de 1988<br>
+                                    <b>NACIONALIDAD:</b> Estados Unidos de Norteamérica<br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                ANTECEDENTES ACADÉMICOS
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Escuela Católica Privada</li>
+                                    <li>Escuela Pública</li>
+                                    <li>City-As-School</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- ESTILOS AREA-->
+    <div class="container-fluid bg-dark p-5 background">
+        <div class="row ">
+            <div class="col-12">
+                <h1 class="text-center text-light" id="estilos">Estilos</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="row ">
+            <div class="col-lg-4 col-md-12 mb-2">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="assets/img/Samos-Grafiti-958x1024.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Graffiti</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Ver Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-2">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="assets/img/god-law.jpg!Large.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dibujo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2">
+                            Ver Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-2">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="assets/img/cabeza.jpg!Large.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pintura</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal3">
+                            Ver Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GALERIA -->
+    <div class="container-fluid bg-dark p-5 background">
+        <div class="row ">
+            <div class="col-12">
+                <h1 class="text-center text-light" id="galeria">Galería</h1>
+            </div>
+        </div>
+    </div>
+    <section class="container py-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <span class='zoom' id='ex1'>
+                    <img src="assets/img/Basquiat_AlexisAdler.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Boat on Calm Water" />
+                </span>
+                <span class='zoom' id='ex2'>
+                    <img src="assets/img/basquiat_untitled.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Wintry Mountain Landscape" />
+                </span>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <span class='zoom' id='ex3'>
+                    <img src="assets/img/LegendaryHalloween_Flyer-KP-p-1600.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+                </span>
+                <span class='zoom' id='ex4'>
+                    <img src="assets/img/JMB-in-words-only-portrait1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Boat on Calm Water" />
+                </span>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <span class='zoom' id='ex5'>
+                    <img src="assets/img/dust-heads.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Waves at Sea" />
+                </span>
+                <span class='zoom' id='ex6'>
+                    <img src="assets/img/Painting.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Yosemite National Park" />
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!--FORMULARIO-->
+    <div class="container-fluid bg-dark p-5 background">
+        <div class="row ">
+            <div class="col-12">
+                <h1 class="text-center text-light" id="contacto">Contacto</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12">
+                <form style="width: 100%;">
+                    <!-- Name input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form4Example1">Nombre</label>
+                        <input type="text" id="form4Example1" class="form-control" placeholder="Juan Pérez" />
+                    </div>
+
+                    <!-- Email input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form4Example2">Email address</label>
+                        <input type="email" id="form4Example2" class="form-control" placeholder="email@email.com" />
+                    </div>
+
+                    <!-- Message input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form4Example3">Mensaje</label>
+                        <textarea class="form-control" id="form4Example3" rows="4"
+                            placeholder="Escriba máx. 500 carácteres"></textarea>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">ENVIAR</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="container-fluid bg-dark p-4 background">
+        <div class="row ">
+            <div class="col-12">
+                <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, neque
+                    asperiores, ipsum optio quisquam facere fuga voluptates debitis cupiditate quibusdam amet illum
+                    magnam dolore aliquam, ex perspiciatis voluptate tempora? Consequatur.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
